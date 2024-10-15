@@ -10,3 +10,7 @@ This is a set of Arduino code to control our customized pressure control system.
 The sinewave code will generate a sin wave with a 20-second period (could be tuned in the code). If the switch of channel 1 is on, the rheostat can be used to tune the amplitude. If the switch is off, the amplitude will be constant that is set in the code.
 
 The square wave code will generate a square wave with a 5-second period and 50% duty cycle (could be tuned in the code). If the switch of channel 1 is on, the rheostat can be used to tune the amplitude. If the switch is off, the amplitude will be constant that is set in the code.
+
+The "constant_increasing" refers to an Arduino code that could generate a linearly increasing output with tunable period, slope, amplitude and so on.
+
+The "sinwave_from1to9" is an advanced  code compared to the sinwave code, with tunable A，w, and t in the expression of Asin(wx+t).
